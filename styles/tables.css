@@ -1,0 +1,40 @@
+/*Table*/
+
+table{
+	width:100%;
+	border-collapse:collapse;
+	table-layout:auto;
+	vertical-align:top;
+	margin-bottom:15px;
+	color: #2D0355;
+	}
+
+table thead th{
+	color:#FFFFFF;
+	background-color:#3F0477;
+	border-collapse:collapse;
+	text-align:center;
+	table-layout:auto;
+	vertical-align:middle;
+	}
+
+table tbody td{
+	vertical-align:top;
+	border-collapse:collapse;
+	padding: 10px;
+	}
+	
+table thead th, table tbody td{
+	padding:5px;
+	border-collapse:collapse;
+	}
+
+table tbody tr.light{
+	color:#666666;
+	background-color:#F7F7F7;
+	}
+
+table tbody tr.dark{
+	color:#666666;
+	background-color:#E8E8E8;
+	}
